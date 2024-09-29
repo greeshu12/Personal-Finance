@@ -1,0 +1,59 @@
+/* Global styles */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5dc; /* Beige background */
+  color: #333; /* Darker text for better contrast */
+}
+
+/* Title for the dashboard */
+h2 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 32px;
+  letter-spacing: 1px;
+  color: #333; /* Darker text for better readability */
+}
+
+/* Layout for the charts container */
+.charts-container {
+  display: flex;
+  flex-direction: column; /* Stack charts vertically */
+  align-items: center; /* Center them horizontally */
+  gap: 40px; /* More space between charts */
+  padding: 40px 20px;
+}
+
+/* Chart wrapper for individual charts */
+.chart-wrapper {
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+  padding: 25px;
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15); /* Soft shadow */
+  transition: transform 0.5s ease, box-shadow 0.5s ease, background-color 0.5s ease;
+  width: 80%; /* Make the charts responsive */
+  max-width: 700px;
+  cursor: pointer; /* Add a pointer cursor to indicate interaction */
+}
+
+/* Hover effect for charts */
+.chart-wrapper:hover {
+  transform: scale(1.1); /* Zoom effect on hover */
+  background-color: rgba(255, 255, 255, 1); /* Solid white on hover */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Increase shadow on hover */
+}
+
+/* Style the chart titles */
+.chart-title {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #333; /* Darker title for readability */
+}
+
+/* Add subtle animation when the chart is hovered over */
+.chart-wrapper:hover .chart-title {
+  color: #000; /* Darker title color on hover */
+  transition: color 0.3s ease; /* Smooth transition for the title color */
+}
