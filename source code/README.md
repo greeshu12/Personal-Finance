@@ -1,3 +1,25 @@
+# Personal Finance Manager
+
+## Description
+This project is aimed at helping users manage their personal finances efficiently. Due to the large size of the `node_modules` directory, it has not been included in the repository.
+
+## Node Modules
+The `node_modules` directory is a significant part of this project, but because of its large size, it is hosted externally.
+
+### Access the `node_modules` Folder:
+You can access the `node_modules` directory through the following Google Drive link:
+
+[Click here to access node_modules](https://drive.google.com/link-to-node-modules)
+
+Please download and place the `node_modules` folder into the root directory of this project.
+
+## Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/greeshu12/Personal-Finance.git
+   cd Personal-Finance
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
